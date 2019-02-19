@@ -1,0 +1,6 @@
+framework module Pods_Jaguar {
+  umbrella header "Pods-Jaguar-umbrella.h"
+
+  export *
+  module * { export * }
+}

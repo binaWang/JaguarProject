@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D86F20221BCF41001395B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D86F1F221BCF41001395B0 /* AppDelegate.swift */; };
+		62D86F22221BCF41001395B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D86F21221BCF41001395B0 /* ViewController.swift */; };
+		62D86F25221BCF41001395B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D86F23221BCF41001395B0 /* Main.storyboard */; };
+		62D86F27221BCF42001395B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D86F26221BCF42001395B0 /* Assets.xcassets */; };
+		62D86F2A221BCF42001395B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D86F28221BCF42001395B0 /* LaunchScreen.storyboard */; };
+		62D86F35221BCF42001395B0 /* JaguarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D86F34221BCF42001395B0 /* JaguarTests.swift */; };
+		62D86F40221BCF42001395B0 /* JaguarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D86F3F221BCF42001395B0 /* JaguarUITests.swift */; };
+		C9754BBFC2CA5780167FE95D /* Pods_Jaguar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7BB40C36BCA65862ACCBE9 /* Pods_Jaguar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D86F31221BCF42001395B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D86F14221BCF41001395B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D86F1B221BCF41001395B0;
+			remoteInfo = Jaguar;
+		};
+		62D86F3C221BCF42001395B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D86F14221BCF41001395B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D86F1B221BCF41001395B0;
+			remoteInfo = Jaguar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62D86F1C221BCF41001395B0 /* Jaguar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaguar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D86F1F221BCF41001395B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D86F21221BCF41001395B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62D86F24221BCF41001395B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62D86F26221BCF42001395B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D86F29221BCF42001395B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62D86F2B221BCF42001395B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D86F30221BCF42001395B0 /* JaguarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaguarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D86F34221BCF42001395B0 /* JaguarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaguarTests.swift; sourceTree = "<group>"; };
+		62D86F36221BCF42001395B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D86F3B221BCF42001395B0 /* JaguarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaguarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D86F3F221BCF42001395B0 /* JaguarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaguarUITests.swift; sourceTree = "<group>"; };
+		62D86F41221BCF42001395B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965DCC0C19F0EF66A0378C33 /* Pods-Jaguar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaguar.release.xcconfig"; path = "Target Support Files/Pods-Jaguar/Pods-Jaguar.release.xcconfig"; sourceTree = "<group>"; };
+		CE7BB40C36BCA65862ACCBE9 /* Pods_Jaguar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jaguar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC6446BB5DA13F82BE824A4 /* Pods-Jaguar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaguar.debug.xcconfig"; path = "Target Support Files/Pods-Jaguar/Pods-Jaguar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D86F19221BCF41001395B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9754BBFC2CA5780167FE95D /* Pods_Jaguar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D86F2D221BCF42001395B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D86F38221BCF42001395B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36D5DC8F06B3945059E3C1EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBC6446BB5DA13F82BE824A4 /* Pods-Jaguar.debug.xcconfig */,
+				965DCC0C19F0EF66A0378C33 /* Pods-Jaguar.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		62D86F13221BCF41001395B0 = {
+			isa = PBXGroup;
+			children = (
+				62D86F1E221BCF41001395B0 /* Jaguar */,
+				62D86F33221BCF42001395B0 /* JaguarTests */,
+				62D86F3E221BCF42001395B0 /* JaguarUITests */,
+				62D86F1D221BCF41001395B0 /* Products */,
+				36D5DC8F06B3945059E3C1EE /* Pods */,
+				E4F0BE61B2632DFEF08DC777 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62D86F1D221BCF41001395B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D86F1C221BCF41001395B0 /* Jaguar.app */,
+				62D86F30221BCF42001395B0 /* JaguarTests.xctest */,
+				62D86F3B221BCF42001395B0 /* JaguarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D86F1E221BCF41001395B0 /* Jaguar */ = {
+			isa = PBXGroup;
+			children = (
+				62D86F1F221BCF41001395B0 /* AppDelegate.swift */,
+				62D86F21221BCF41001395B0 /* ViewController.swift */,
+				62D86F23221BCF41001395B0 /* Main.storyboard */,
+				62D86F26221BCF42001395B0 /* Assets.xcassets */,
+				62D86F28221BCF42001395B0 /* LaunchScreen.storyboard */,
+				62D86F2B221BCF42001395B0 /* Info.plist */,
+			);
+			path = Jaguar;
+			sourceTree = "<group>";
+		};
+		62D86F33221BCF42001395B0 /* JaguarTests */ = {
+			isa = PBXGroup;
+			children = (
+				62D86F34221BCF42001395B0 /* JaguarTests.swift */,
+				62D86F36221BCF42001395B0 /* Info.plist */,
+			);
+			path = JaguarTests;
+			sourceTree = "<group>";
+		};
+		62D86F3E221BCF42001395B0 /* JaguarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62D86F3F221BCF42001395B0 /* JaguarUITests.swift */,
+				62D86F41221BCF42001395B0 /* Info.plist */,
+			);
+			path = JaguarUITests;
+			sourceTree = "<group>";
+		};
+		E4F0BE61B2632DFEF08DC777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7BB40C36BCA65862ACCBE9 /* Pods_Jaguar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D86F1B221BCF41001395B0 /* Jaguar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D86F44221BCF42001395B0 /* Build configuration list for PBXNativeTarget "Jaguar" */;
+			buildPhases = (
+				0DE7360202CFF1C113B2FC12 /* [CP] Check Pods Manifest.lock */,
+				62D86F18221BCF41001395B0 /* Sources */,
+				62D86F19221BCF41001395B0 /* Frameworks */,
+				62D86F1A221BCF41001395B0 /* Resources */,
+				6EB63DF5B85AD9C133323D1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jaguar;
+			productName = Jaguar;
+			productReference = 62D86F1C221BCF41001395B0 /* Jaguar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62D86F2F221BCF42001395B0 /* JaguarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D86F47221BCF42001395B0 /* Build configuration list for PBXNativeTarget "JaguarTests" */;
+			buildPhases = (
+				62D86F2C221BCF42001395B0 /* Sources */,
+				62D86F2D221BCF42001395B0 /* Frameworks */,
+				62D86F2E221BCF42001395B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D86F32221BCF42001395B0 /* PBXTargetDependency */,
+			);
+			name = JaguarTests;
+			productName = JaguarTests;
+			productReference = 62D86F30221BCF42001395B0 /* JaguarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62D86F3A221BCF42001395B0 /* JaguarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D86F4A221BCF42001395B0 /* Build configuration list for PBXNativeTarget "JaguarUITests" */;
+			buildPhases = (
+				62D86F37221BCF42001395B0 /* Sources */,
+				62D86F38221BCF42001395B0 /* Frameworks */,
+				62D86F39221BCF42001395B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D86F3D221BCF42001395B0 /* PBXTargetDependency */,
+			);
+			name = JaguarUITests;
+			productName = JaguarUITests;
+			productReference = 62D86F3B221BCF42001395B0 /* JaguarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D86F14221BCF41001395B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "王斌";
+				TargetAttributes = {
+					62D86F1B221BCF41001395B0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					62D86F2F221BCF42001395B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 62D86F1B221BCF41001395B0;
+					};
+					62D86F3A221BCF42001395B0 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 62D86F1B221BCF41001395B0;
+					};
+				};
+			};
+			buildConfigurationList = 62D86F17221BCF41001395B0 /* Build configuration list for PBXProject "Jaguar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D86F13221BCF41001395B0;
+			productRefGroup = 62D86F1D221BCF41001395B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D86F1B221BCF41001395B0 /* Jaguar */,
+				62D86F2F221BCF42001395B0 /* JaguarTests */,
+				62D86F3A221BCF42001395B0 /* JaguarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D86F1A221BCF41001395B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D86F2A221BCF42001395B0 /* LaunchScreen.storyboard in Resources */,
+				62D86F27221BCF42001395B0 /* Assets.xcassets in Resources */,
+				62D86F25221BCF41001395B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D86F2E221BCF42001395B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D86F39221BCF42001395B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE7360202CFF1C113B2FC12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jaguar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB63DF5B85AD9C133323D1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jaguar/Pods-Jaguar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/EasyAnimation/EasyAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/FlowingMenu/FlowingMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Instructions/Instructions.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PageMenu/PageMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlowingMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Instructions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PageMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jaguar/Pods-Jaguar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D86F18221BCF41001395B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D86F22221BCF41001395B0 /* ViewController.swift in Sources */,
+				62D86F20221BCF41001395B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D86F2C221BCF42001395B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D86F35221BCF42001395B0 /* JaguarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D86F37221BCF42001395B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D86F40221BCF42001395B0 /* JaguarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D86F32221BCF42001395B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D86F1B221BCF41001395B0 /* Jaguar */;
+			targetProxy = 62D86F31221BCF42001395B0 /* PBXContainerItemProxy */;
+		};
+		62D86F3D221BCF42001395B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D86F1B221BCF41001395B0 /* Jaguar */;
+			targetProxy = 62D86F3C221BCF42001395B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62D86F23221BCF41001395B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D86F24221BCF41001395B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62D86F28221BCF42001395B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D86F29221BCF42001395B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D86F42221BCF42001395B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D86F43221BCF42001395B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D86F45221BCF42001395B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC6446BB5DA13F82BE824A4 /* Pods-Jaguar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jaguar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cagemini.Jaguar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62D86F46221BCF42001395B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965DCC0C19F0EF66A0378C33 /* Pods-Jaguar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Jaguar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cagemini.Jaguar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62D86F48221BCF42001395B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JaguarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cagemini.JaguarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jaguar.app/Jaguar";
+			};
+			name = Debug;
+		};
+		62D86F49221BCF42001395B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JaguarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cagemini.JaguarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jaguar.app/Jaguar";
+			};
+			name = Release;
+		};
+		62D86F4B221BCF42001395B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JaguarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cagemini.JaguarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jaguar;
+			};
+			name = Debug;
+		};
+		62D86F4C221BCF42001395B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JaguarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cagemini.JaguarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jaguar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D86F17221BCF41001395B0 /* Build configuration list for PBXProject "Jaguar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D86F42221BCF42001395B0 /* Debug */,
+				62D86F43221BCF42001395B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D86F44221BCF42001395B0 /* Build configuration list for PBXNativeTarget "Jaguar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D86F45221BCF42001395B0 /* Debug */,
+				62D86F46221BCF42001395B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D86F47221BCF42001395B0 /* Build configuration list for PBXNativeTarget "JaguarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D86F48221BCF42001395B0 /* Debug */,
+				62D86F49221BCF42001395B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D86F4A221BCF42001395B0 /* Build configuration list for PBXNativeTarget "JaguarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D86F4B221BCF42001395B0 /* Debug */,
+				62D86F4C221BCF42001395B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D86F14221BCF41001395B0 /* Project object */;
+}
